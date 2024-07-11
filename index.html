@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="shoppingListApp" ng-controller="ShoppingListController">
+
+    <h1>Shopping List ~ Aldi</h1>
+
+    <form ng-submit="addItem()">
+        <input type="text" ng-model="newItem" placeholder="Add new item" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <ul>
+        <li ng-repeat="item in items">
+            {{ item }}  <button ng-click="removeItem($index)">Remove</button>
+
+        </li>
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
