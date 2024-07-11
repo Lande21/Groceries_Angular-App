@@ -6,10 +6,10 @@ This is an AngularJS application for managing a grocery shopping list. The app a
 
 ***Features:***
 
-Add Items: Easily add items to your shopping list using the input field.
-Remove Items: Remove items from your list with a single click.
-Real-time Updates: Items are updated in real-time without the need to refresh the page.
-Technologies Used
++ Add Items: Easily add items to your shopping list using the input field.
++ Remove Items: Remove items from your list with a single click.
++ Real-time Updates: Items are updated in real-time without the need to refresh the page.
++ Technologies Used
 
 ***AngularJS:*** For building the dynamic functionalities of the app.
 ***HTML:*** For structuring the application.
@@ -24,5 +24,5 @@ Technologies Used
 # Usage
 
 * Enter the name of the item you wish to add in the input field.
-Click the "Add" button or press Enter to add the item to your list.
-To remove an item, click the "Remove" button next to the item you wish to delete.
+* Click the "Add" button or press Enter to add the item to your list.
+* To remove an item, click the "Remove" button next to the item you wish to delete.
