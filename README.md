@@ -18,7 +18,7 @@ This is an AngularJS application for managing a grocery shopping list. The app a
 
 # Setup Instructions
 
-1. Clone the repository: git clone https://github.com/Lande21/Groceries-Angular-App.git
+1. Clone the repository: git clone https://github.com/Lande21/Groceries_Angular-App.git
 2. Open the project folder in VS Code.
 3. Open index.html in your web browser to view and interact with the application.
 
